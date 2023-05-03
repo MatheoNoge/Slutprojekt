@@ -4,7 +4,7 @@
     height: 200vh;
     margin: -0.4vw;
     flex-direction: column;
-    background-color: grey;
+    background-color: #4B4A4A;
 }
 .header{
     height: 20vh;
@@ -12,7 +12,7 @@
     background-color: #2E2E2E;
 }
 .background{
-    height: 180vh;
+    height: 190vh;
     width: 98.9vw;
     background-color: #4B4A4A;
 }
@@ -105,6 +105,7 @@
     color: white;
     display: flex;
     justify-content: center;
+    margin: 1px;
 
   }
 
@@ -112,4 +113,48 @@
 .title {
     display: flex;
     justify-content: center;
+
   }
+a:link, a:visited, a:hover, a:active {
+  color: #fff;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  color: #fff;
+}
+.wallpaper{
+  display: flex;
+  justify-content: center;
+  height: 160vh;
+  width: 98.9vw;
+  background-color: #4B4A4A;
+}
+.textbox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 80vw;
+  height: auto;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  padding: 5vw;
+  font-size: 60px;
+  background-color: #2E2E2E;
+  color: #fff;
+}
+.largest-container-hades {
+  display: flex;
+    width: 98.9vw;
+    height: 160vh;
+    margin: -0.4vw;
+    flex-direction: column;
+    background-color: #4B4A4A;
+}

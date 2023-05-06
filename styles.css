@@ -45,7 +45,7 @@
   
     cursor: pointer;
   }
-.reviews .item .item-container{
+.reviews .item .item-container .add-to-cart img {
     width: 32px;
     height: 32px;
   }

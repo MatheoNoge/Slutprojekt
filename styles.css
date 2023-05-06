@@ -1,7 +1,7 @@
 .largest-container{
     display: flex;
     width: 98.7vw;
-    height: 210vh;
+    height: 230vh;
     margin: -0.4vw;
     flex-direction: column;
     background-color: #4B4A4A;
@@ -12,7 +12,7 @@
     background-color: #2E2E2E;
 }
 .background{
-    height: 175vh;
+    height: 195vh;
     width: 98.7vw;
     background-color: #4B4A4A;
 }

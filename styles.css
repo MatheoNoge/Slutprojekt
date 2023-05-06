@@ -191,9 +191,39 @@ a:link, a:visited, a:hover, a:active {
   display: flex;
   justify-content: center;
   height: 250vh;
-  width: 98.7vw;
-  background-color: #4B4A4A;
+  width: 98.7vw; 
+  background-size: cover;
 }
+#hades{
+  background-image: url('images/Hades.jpg');
+}
+#botw{
+  background-image: url('images/Botw.jpg');
+}
+#celeste{
+  background-image: url('images/Celeste.jpg');
+}
+#hk{
+  background-image: url('images/HK.jpg');
+}
+#omori{
+  background-image: url('images/Omori.jpg');
+}
+#oneshot{
+  background-image: url('images/Oneshot.jpg');
+}
+#raft{
+  background-image: url('images/Raft.jpg');
+}
+#smo{
+  background-image: url('images/SMO.jpg');
+}
+#undertale{
+  background-image: url('images/UNDERTALE.jpg');
+}
+
+
+
 .textbox {
   display: flex;
   justify-content: center;

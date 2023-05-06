@@ -1,7 +1,7 @@
 .largest-container{
     display: flex;
     width: 98.9vw;
-    height: 200vh;
+    height: 210vh;
     margin: -0.4vw;
     flex-direction: column;
     background-color: #4B4A4A;
@@ -12,14 +12,22 @@
     background-color: #2E2E2E;
 }
 .background{
-    height: 190vh;
+    height: 175vh;
     width: 98.9vw;
     background-color: #4B4A4A;
 }
+.select-div{
+  height: 5vh;
+  width: 98.9vw;
+
+}
+
 
 .reviews{
     display: grid;
-    grid-template-columns: repeat(3, 1fr)
+    grid-template-columns: repeat(3, 1fr);
+    height: 100%;
+    width: 100%;
 }
 
 .reviews .item .item-container .add-to-wishlist {
@@ -41,15 +49,7 @@
     width: 32px;
     height: 32px;
   }
-.reviews {
-    height: 100%;
-    width: 100%
-  
-    display: grid;
-    
-    grid-template-rows: 0.01fr 0.01fr 0.01fr 0.01fr;
-    grid-template-columns: repeat(3, 3fr);
-  }
+
 .reviews img {
     width: 200px;
     /* filter: drop-shadow(30px 10px 4px #ddd); */
@@ -121,7 +121,38 @@ a:link, a:visited, a:hover, a:active {
   font-size: 35px;
 }
 
+.select {
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 6px;
+  font-size: 16px;
+  color: #555;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 12 8" xmlns="http://www.w3.org/2000/svg"><path d="M6 8L0 0h12L6 8z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  background-size: 12px 8px;
+}
 
+.select:hover, .select:focus {
+  border-color: #999;
+}
+
+.select option {
+  padding: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+
+
+
+
+
+/*För Hades/recensioner */
 
 .header {
   display: flex;

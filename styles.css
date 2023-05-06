@@ -234,8 +234,8 @@ a:link, a:visited, a:hover, a:active {
   margin-bottom: 10vh;
   padding: 5vw;
   font-size: 20px;
-  background-color: rgba(46, 46, 46, 0.5);
-  opacity: 0.5;
+  background-color: rgba(46, 46, 46);
+  opacity: 0.9;
   color: #fff;
 }
 .largest-container-hades {

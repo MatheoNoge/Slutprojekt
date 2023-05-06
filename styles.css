@@ -1,3 +1,4 @@
+/*
 .largest-container{
     display: flex;
     width: 98.7vw;
@@ -52,7 +53,7 @@
 
 .reviews img {
     width: 200px;
-    /* filter: drop-shadow(30px 10px 4px #ddd); */
+    /* filter: drop-shadow(30px 10px 4px #ddd); *//*
   }
 .reviews .item {
     display: flex;
@@ -152,7 +153,7 @@ a:link, a:visited, a:hover, a:active {
 
 
 
-/*För Hades/recensioner */
+/*För Hades/recensioner */ /*
 
 .header {
   display: flex;
@@ -188,4 +189,125 @@ a:link, a:visited, a:hover, a:active {
     margin: -0.4vw;
     flex-direction: column;
     background-color: #4B4A4A;
+} */
+.largest-container {
+  display: flex;
+  width: 98.7vw;
+  height: 210vh;
+  margin: -0.4vw;
+  flex-direction: column;
+  background-color: #4B4A4A;
 }
+
+.header {
+  height: 20vh;
+  width: 98.7vw;
+  background-color: #2E2E2E;
+}
+
+.background {
+  height: 175vh;
+  width: 98.7vw;
+  background-color: #4B4A4A;
+}
+
+.select-div {
+  height: 5vh;
+  width: 98.7vw;
+}
+
+.reviews {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 100%;
+  width: 100%;
+}
+
+.reviews .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 60vh;
+}
+
+.reviews .item .item-container {
+  width: 350px;
+  height: 80%;
+  background-color: #2E2E2E;
+  border-radius: 25px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.reviews .item .item-container .item-img {
+  width: 100%;
+  height: 70%;
+  background-color: #2E2E2E;
+  border-radius: 25px 25px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.reviews .item .item-container .item-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.2s ease-in-out;
+}
+
+.reviews .item .item-container:hover .item-img img {
+  transform: scale(1.1);
+}
+
+.reviews .item .item-container .title {
+  width: 100%;
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.reviews .item .item-container .add-to-cart {
+  background-color: rgba(var(--right-side-bg-color), 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.reviews .item .item-container .add-to-cart img {
+  width: 32px;
+  height: 32px;
+}
+
+.reviews .item .item-container:hover .add-to-cart {
+  transform: scale(1.2);
+}
+
+.reviews .item .item-container .add-to-wishlist {
+  background-color: rgba(255, 21, 21, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.reviews .item .item-container .add-to-wishlist img {
+  width: 32px;
+  height: 32

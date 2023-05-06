@@ -235,7 +235,7 @@ a:link, a:visited, a:hover, a:active {
   padding: 5vw;
   font-size: 20px;
   background-color: rgba(46, 46, 46, 0.9);
-  color: #fff;
+  color: rgba(255, 255, 255, 1);
 }
 .largest-container-hades {
   display: flex;

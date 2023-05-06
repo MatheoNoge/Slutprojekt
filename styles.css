@@ -190,7 +190,7 @@ a:link, a:visited, a:hover, a:active {
 .wallpaper{
   display: flex;
   justify-content: center;
-  height: 160vh;
+  height: 250vh;
   width: 98.7vw;
   background-color: #4B4A4A;
 }
@@ -203,7 +203,7 @@ a:link, a:visited, a:hover, a:active {
   margin-top: 10vh;
   margin-bottom: 10vh;
   padding: 5vw;
-  font-size: 40px;
+  font-size: 20px;
   background-color: #2E2E2E;
   color: #fff;
 }
